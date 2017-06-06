@@ -32,7 +32,7 @@ const mediaFromProps = ({breakpoints = defaultBreakpoints, translatorFunc = mapT
         })
 
         if (typeof translatorFunc === 'function') {
-            translatedMediaObject = Object.assign({}, mediaObject[breakpointName], translatorFunc(Object.assign({}, mediaObject[breakpointName])))
+            translatedMediaObject = Object.assign({}, translatorFunc(Object.assign({}, mediaObject[breakpointName])))
         } else {
             translatedMediaObject = Object.assign({}, mediaObject[breakpointName])
         }
