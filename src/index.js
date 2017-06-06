@@ -1,6 +1,5 @@
 import { css } from 'styled-components'
 import { defaultBreakpoints } from './defaultBreakpoints'
-// import { defaultTranslator } from './defaultTranslator'
 import { mapTranslator } from './mapTranslator'
 
 /**

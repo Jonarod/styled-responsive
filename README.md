@@ -1,7 +1,3 @@
-Responsive helpers for 💅 [styled-components](https://github.com/styled-components/styled-components).
-Mobile-first and react-native ready.
-
-
 
 # Quick Start
 
