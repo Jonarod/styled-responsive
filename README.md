@@ -321,6 +321,5 @@ const Text = styled.span`
 
 # Todo
 
-[ ] test for react-native
-
-[ ] write unit-tests
+- [ ] test with `react-native`
+- [ ] write unit-tests
