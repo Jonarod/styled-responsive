@@ -41,7 +41,7 @@ function mapTranslator(cssObj) {
         alignMeEnd: (v) => ({'alignSelf':(v && 'flex-end')}),
         alignMeStretch: (v) => ({'alignSelf':(v && 'stretch')}),
         bg: (v) => ({'background':v}),
-        gColor: (v) => ({'backgroundColor':v}),
+        bgColor: (v) => ({'backgroundColor':v}),
         w: (v) => ({'width':v}),
         h: (v) => ({'height':v}),
         minH: (v) => ({'min-height':v}),
