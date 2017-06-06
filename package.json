@@ -1,6 +1,6 @@
 {
   "name": "styled-responsive",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Responsive helpers for :nail_care: styled-components. Mobile-first and react-native ready.",
   "author": "jonarod",
   "license": "MIT",
