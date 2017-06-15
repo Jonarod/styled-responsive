@@ -110,29 +110,29 @@ function defaultTranslator(props) {
             result['alignSelf'] = props[key] && 'stretch';
             break;
         case 'b':
-            result['borderWidth'] = props[key];
+            result['border'] = props[key];
             break;
         case 'borderVertical':
         case 'bv':
-            result['borderTopWidth'] = props[key];
-            result['borderBottomWidth'] = props[key];
+            result['borderTop'] = props[key];
+            result['borderBottom'] = props[key];
             break;
         case 'borderHorizontal':
         case 'bh':
-            result['borderRightWidth'] = props[key];
-            result['borderLeftWidth'] = props[key];
+            result['borderRight'] = props[key];
+            result['borderLeft'] = props[key];
             break;
         case 'bt':
-            result['borderTopWidth'] = props[key];
+            result['borderTop'] = props[key];
             break;
         case 'bl':
-            result['borderLeftWidth'] = props[key];
+            result['borderLeft'] = props[key];
             break;
         case 'bb':
-            result['borderBottomWidth'] = props[key];
+            result['borderBottom'] = props[key];
             break;
         case 'br':
-            result['borderRightWidth'] = props[key];
+            result['borderRight'] = props[key];
             break;
         case 'bg':
             result['background'] = props[key];
